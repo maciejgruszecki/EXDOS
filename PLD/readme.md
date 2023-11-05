@@ -1,5 +1,5 @@
-# EXDOS
 ### PLD equations
+```
 /* *************** INPUT PINS *********************/
 PIN 1   = A20     ; /* A20 */ 
 PIN 2   = A19     ; /* A19 */
@@ -51,3 +51,4 @@ WRE     = WR & IOCE & A3;
 RDE     = RD & IOCE & A3;
 
 /* end */
+```
