@@ -18,7 +18,7 @@
 | U101 | LM2596S-5.0 | |
 | FDC | WD1772 | or VL1772 |
 | GAL | GAL22V10 | or ATF22V10 |
-| ROM | 27C256 | |
+| Memory | 27C256 | |
 | 240A | 74LS240 | |
 | 240B | 74LS240 | optional |
 | 244 | 74LS244 | |
@@ -38,3 +38,13 @@
 | J7 | HDR-2x17 | Floppy drives connector |
 | J8 | | Floppy drives power |
 | +12V | TESTPOINT | |
+#### 240B jumpers
+The chip 240B is optional. It is only needed in two situations:
+* if you want to connect legacy Enterprise drive,
+* there are connect more than 2 floppy drives.
+#### Modes of floppy drives connection
+* XT - Up to 4 drives can be connected (straight cable, drives setup by jumpers)
+* AT - Up to 2 drives can be connected (twisted cable, both drives fixed as DS1)
+#### A/B-B/A switch
+* AB - standard order DS0=A, DS1=B
+* BA - reverse order DS0=B, DS1=A
